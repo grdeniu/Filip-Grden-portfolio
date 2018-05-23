@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+span {
+    color: #FFF;
+}
+
+h2 {
+    font-family: 'RobotoSlab';
+    color: #333333;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+}
+
+p {
+    text-align: center;
+    font-family: 'RobotoSlab';
+    color: #777777;
+    font-size: 20px;
+}
+
+#mobile-menu,
+#menu-bottom {
+    display: none;
+}
+
+#main-nav {
+    position: fixed;
+    width: 100%;
+    color: #0ed8d6;
+}
+
+#main-nav h3 {
+    display: inline-block;
+    margin: 0;
+    padding: 5px;
+}
+
+#main-nav .fa {
+    padding-left: 10px;
+}
+
+#main-nav.scrolled {
+    background-color: rgba(14, 216, 214, 0.6);
+    color: #FFF;
+    transition: all 1s;
+}
+
+#main-nav.scrolled span {
+    color: #FFF;
+}
+
+#main-nav ul {
+    margin: 5px;
+}
+
+#main-nav ul li.main-item {
+    list-style: none;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#main-nav .nav-left {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+#main-nav ul div.nav-right {
+    text-align: right;
+}
+
+#main-nav ul li.main-item a {
+    color: #0ed8d6;
+    text-decoration: none;
+    padding: 20px;
+    transition: all 1s;
+}
+
+#main-nav ul li.main-item a:hover {
+    color: #FFF;
+}
+
+#main-nav.scrolled ul li.main-item a {
+    color: #FFF;
+    transition: all 1s;
+}
+
+#main-nav.scrolled ul li.main-item a:hover {
+    color: #0ed8d6;
+}
+
+#main-head {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/book-computer-design-326424.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#head {
+    font-family: 'Montserrat';
+    color: #0ed8d6;
+}
+
+#head.scrolled {
+    color: #FFF;
+    transition: all 1s;
+}
+
+#head.scrolled span {
+    color: #0ed8d6;
+    transition: all 1s;
+}
+
+#about {
+    text-align: center;
+}
+
+#about .photo {
+    float: left;
+    width: 50%;
+    height: 330px;
+    margin-bottom: 70px;
+}
+
+
+
+.photo img {
+    height: 100%;
+    border-radius: 10px;
+}
+
+#about h2 {
+    font-size: 30px;
+    font-family: 'RobotoSlab';
+    color: #333333;
+}
+
+#about p {
+    width: 30%;
+    margin-left: 50%;
+}
+
+.clear {
+    clear: both;
+}
+
+#skills {
+    background-color: rgb(242, 242, 242);
+    text-align: center;
+}
+
+
+figure.icon {
+    display: inline-block;
+    border: 2px solid #0ed8d6;
+    border-radius: 10px;
+}
+
+figure.icon img {
+    padding: 30px;
+}
+
+figure.jquery img {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.icons {
+    width: 65%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+#main-nav a#href.color,
+#main-nav a#href1.color,
+#main-nav a#href2.color,
+#main-nav a#href3.color {
+    color: #333333;
+    transition: all 0.4s;
+}
+
+/*
+#portfolio .fa {
+    line-height: 60px;
+    width: 60px;
+    height: 60px;
+}
+*/
+
+.icon-height img {
+    height: 100px;
+}
+
+.icon p {
+    margin: 0;
+    display: none;
+}
+
+p.click {
+    display: inherit;
+}
+
+@keyframes click {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.25);
+    }
+}
+
+
+p.click,
+p.click .fa {
+    animation-name: click;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+#contact {
+    background-color: rgb(230, 230, 255);
+
+}
+
+#contact .contact {
+    text-align: center;
+    padding: 50px;
+}
+#contact .contact .fa,
+#contact .contact p {
+    display: inline-block;
+    font-size: 30px;
+    padding: 15px;
+}
+
+
+
+footer {
+    background-color: #333333;
+}
+
+footer p{
+    margin: 0;
+    padding: 10px;
+}
