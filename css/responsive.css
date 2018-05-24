@@ -16,19 +16,32 @@
     }
 }
 
-
 @media all and (max-width: 768px) {
-        #mobile-menu {
+    #mobile-menu {
         display: block;
         text-align: right;
         padding-right: 20px;
         line-height: 40px;
-        color: #1AC056;
-    };
+        color: #FFF;
+
+    }
+
+    .nav-right {
+        display: none;
+    }
+
+    #main-nav #menu-bottom:checked + .nav-right {
+        display: block;
+    }
+    #about .photo {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+    #about p {
+        margin: auto;
+        text-align: center;
+        width: 80%;
+        padding: 50px;
+    }
 }
-
-
-
-
-
-

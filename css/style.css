@@ -15,7 +15,7 @@ h2 {
     margin: 0;
     padding: 50px;
 }
-
+ 
 p {
     text-align: center;
     font-family: 'RobotoSlab';
@@ -26,13 +26,14 @@ p {
 #mobile-menu,
 #menu-bottom {
     display: none;
+    transition: all 1s;
 }
 
 #main-nav {
     position: fixed;
     width: 100%;
     color: #0ed8d6;
-}
+} 
 
 #main-nav h3 {
     display: inline-block;
