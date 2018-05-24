@@ -148,8 +148,9 @@ p {
 }
 
 #about p {
-    width: 30%;
-    margin-left: 50%;
+    width: 50%;
+    margin-left: 40%;
+    text-align: left;
 }
 
 .clear {
@@ -168,9 +169,17 @@ figure.icon {
     border-radius: 10px;
 }
 
+
 figure.icon img {
     padding: 30px;
+    cursor: pointer;
+    transition: all 0.4s;
 }
+
+figure.icon img:hover {
+    transform: scale(1.25);
+}
+
 
 figure.jquery img {
     width: 100%;
@@ -209,7 +218,7 @@ figure.jquery img {
 }
 
 p.click {
-    display: inherit;
+    display: none;
 }
 
 @keyframes click {
@@ -248,6 +257,11 @@ p.click .fa {
     padding: 15px;
 }
 
+#contact a {
+    color: #777777;
+    font-size: 30px;
+    text-decoration: none;
+}
 
 
 footer {

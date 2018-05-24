@@ -1,22 +1,33 @@
 @media all and (max-width: 1180px) {
-    #about p {
-        width: 35%;
-    }
     .icons {
         width: 75%;
+    }
+    #about p {
+        width: 60%;
     }
 }
 
 @media all and (max-width: 984px) {
-    #about p {
-        width: 40%;
-    }
     .icons {
         width: 80%;
     }
+    #main-nav ul li.main-item a {
+        padding: 10px;
+    }
+    #about .photo {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+    #about p {
+        margin: auto;
+        text-align: center;
+        width: 80%;
+        padding: 50px;
+    }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 778px) {
     #mobile-menu {
         display: block;
         text-align: right;
@@ -33,15 +44,7 @@
     #main-nav #menu-bottom:checked + .nav-right {
         display: block;
     }
-    #about .photo {
-        float: none;
-        width: 100%;
-        margin: 0;
-    }
-    #about p {
-        margin: auto;
-        text-align: center;
-        width: 80%;
-        padding: 50px;
+    p.click {
+        display: inherit;
     }
 }
