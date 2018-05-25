@@ -50,13 +50,8 @@ function paragraphAppear() {
         if ($(this).next().css('display') == "none") {
             $(this).next().slideDown(1000);
             $(this).parent().siblings().find('p').slideUp(1000);
-        }          else {
-             $(this).next().slideUp(1000);
-        }   
+        } else {
+            $(this).next().slideUp(1000);
+        }
     })
 };
-
-
-
-
-
