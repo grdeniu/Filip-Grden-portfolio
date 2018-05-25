@@ -60,6 +60,10 @@
 }
 
 @media all and (max-width: 640px) {
+    #head.scrolled span {
+        color: #333333;
+    }
+    
     #about p {
         padding: 0;
         padding-top: 50px;
