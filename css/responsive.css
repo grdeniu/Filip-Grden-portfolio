@@ -48,23 +48,7 @@
         display: block;
     }
     
-    #main-nav.scrolled {
-        background-color: #333333;
-    }
-    
-    #head.scrolled span {
-        color: #333333;
-    }
-    
-    #main-nav a#href.color,
-    #main-nav a#href1.color,
-    #main-nav a#href2.color,
-    #main-nav a#href3.color {
-        color: #777777;
-    }
-    
     figure.icon {
-        border: 2px solid #333333;
         margin: 0;
         margin-bottom: 20px;
     }
@@ -80,8 +64,7 @@
     }
     
     #about p {
-        padding: 0;
-        padding-top: 50px;
+        padding: 50px 0px;
     }
     
     #contact .contact {

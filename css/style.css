@@ -15,7 +15,7 @@ h2 {
     margin: 0;
     padding: 50px;
 }
- 
+
 p {
     text-align: center;
     font-family: 'RobotoSlab';
@@ -33,7 +33,7 @@ p {
     position: fixed;
     width: 100%;
     color: #0ed8d6;
-} 
+}
 
 #main-nav h3 {
     display: inline-block;
@@ -199,14 +199,6 @@ figure.jquery img {
     transition: all 0.4s;
 }
 
-/*
-#portfolio .fa {
-    line-height: 60px;
-    width: 60px;
-    height: 60px;
-}
-*/
-
 .icon-height img {
     height: 100px;
 }
@@ -241,7 +233,7 @@ p.click .fa {
 
 
 #contact {
-    background-color: rgb(230, 230, 255);
+    background-color: rgb(230, 230, 230);
 
 }
 
@@ -249,6 +241,7 @@ p.click .fa {
     text-align: center;
     padding: 50px;
 }
+
 #contact .contact .fa,
 #contact .contact p {
     display: inline-block;
@@ -267,7 +260,7 @@ footer {
     background-color: #333333;
 }
 
-footer p{
+footer p {
     margin: 0;
     padding: 10px;
 }
