@@ -75,6 +75,10 @@
 }
 
 @media all and (max-width: 640px) {
+    #main-nav ul li.main-item a {
+        padding: 2px;
+    }
+    
     #about p {
         padding: 0;
         padding-top: 50px;
@@ -87,4 +91,5 @@
     #contact a {
         font-size: 20px;
     }
+    
 }
