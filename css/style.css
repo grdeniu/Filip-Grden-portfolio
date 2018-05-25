@@ -150,7 +150,7 @@ p {
 #about p {
     width: 50%;
     margin-left: 40%;
-    text-align: left;
+    text-align: left
 }
 
 .clear {
@@ -161,7 +161,6 @@ p {
     background-color: rgb(242, 242, 242);
     text-align: center;
 }
-
 
 figure.icon {
     display: inline-block;

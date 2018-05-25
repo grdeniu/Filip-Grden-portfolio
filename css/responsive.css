@@ -9,7 +9,7 @@
 
 @media all and (max-width: 984px) {
     .icons {
-        width: 80%;
+        width: 60%;
     }
     #main-nav ul li.main-item a {
         padding: 10px;
@@ -44,7 +44,45 @@
     #main-nav #menu-bottom:checked + .nav-right {
         display: block;
     }
+    #main-nav.scrolled {
+        background-color: #333333;
+    }
+    #main-nav a#href.color,
+    #main-nav a#href1.color,
+    #main-nav a#href2.color,
+    #main-nav a#href3.color {
+        color: #777777;
+    }
+    
     p.click {
         display: inherit;
     }
 }
+
+@media all and (max-width: 640px) {
+    #about p {
+        padding: 0;
+        padding-top: 50px;
+    }
+    figure.icon {
+        border: 2px solid #333333;
+    }
+    #contact a {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
