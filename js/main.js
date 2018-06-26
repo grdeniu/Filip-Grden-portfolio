@@ -11,6 +11,7 @@ function addScrolled() {
     var headerHeight = $('#main-head').outerHeight();
     var skillsHeight = $('#skills').outerHeight();
     var aboutHeight = $('#about').outerHeight();
+    var portfolioHeight = $('#portfolio').outerHeight();
     var actualPos = $(window).scrollTop();
 
     if (actualPos > navHeight) {
@@ -41,6 +42,12 @@ function addScrolled() {
         $('#href3').addClass('color');
     } else {
         $('#href3').removeClass('color');
+    }
+    if (actualPos > (headerHeight + aboutHeight + skillsHeight + (portfolioHeight / 2))) {
+        $('#href3').removeClass('color');
+        $('#href4').addClass('color');
+    } else {
+        $('#href4').removeClass('color');
     }
 }
 

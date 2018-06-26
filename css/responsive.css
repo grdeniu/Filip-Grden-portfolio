@@ -5,6 +5,12 @@
     #about p {
         width: 60%;
     }
+    #skills #scene {
+        display: none;
+    }
+    #skills h2 {
+        margin: 0;
+    }
 }
 
 @media all and (max-width: 984px) {
